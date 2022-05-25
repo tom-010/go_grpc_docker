@@ -8,5 +8,5 @@ protoc \
     proto/users.proto
 
 protoc \
-    --dart_out=grpc:client/lib/src/gen \
+    --dart_out=grpc:client/lib/gen \
     -Iproto proto/users.proto

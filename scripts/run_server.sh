@@ -1,3 +1,4 @@
 #!/bin/bash
 
-go run server/server.go
+cd server 
+go run server.go
