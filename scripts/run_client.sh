@@ -1,3 +1,4 @@
 #!/bin/bash
 
-go run client/client.go
+cd client 
+dart bin/client.dart
